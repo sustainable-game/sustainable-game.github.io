@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="main">
+  <div>
+    <h2>SDGsとは</h2>
+  </div>
+  <div>
+    <h2>SustainableGameとは</h2>
+    <h3>活動理念</h3>
+    <h3>名前の由来</h3>
+  </div>
+  <div>
+    <h2>メンバー募集</h2>
+  </div>
+  <div>
+    <h2>イベント情報</h2>
+    {% for post in site.categories.event %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <article class="post">
+          <img src="/img/{{post.thumbnail}}" alt="" class="blog_thumnail">
+          <div class="post_text">
+            <p>{{post.date | date:"%Y/%m/%d"}}</p><h3>{{post.title}}</h3>
+          </div>
+        </article>
+      </a>
+    {% endfor %}
+  </div>
+  <div>
+    <h2>ブログ</h2>
+    {% for post in site.categories.blog %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <article class="post">
+          <img src="/img/{{post.thumbnail}}" alt="" class="blog_thumnail">
+          <div class="post_text">
+            <p>{{post.date | date:"%Y/%m/%d"}}</p><h3>{{post.title}}</h3>
+          </div>
+        </article>
+      </a>
+    {% endfor %}
+  </div>
+</div>
