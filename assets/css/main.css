@@ -1,3 +1,16 @@
 .main{
   padding: 0 12vw;
 }
+.top{
+  text-align: center;
+  height: 90vh;
+  text-align: center;
+  position: relative;
+}
+
+.center-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
