@@ -5,10 +5,10 @@
 		<title>Sustainable Game</title>
 		<link href="css/prettify.css" type="text/css" rel="stylesheet">
 		<script type="text/javascript" src="js/prettify.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu|Noto+Sans+JP&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body  onload="prettyPrint()">
@@ -19,17 +19,17 @@
 					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons icon-white">menu</i></a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 						<li class="waves-effect waves-light"><a href="#top">トップ</a></li>
-						<li class="waves-effect waves-light"><a href="#about">この団体について</a></li>
+						<li class="waves-effect waves-light"><a href="#about-us">この団体について</a></li>
 						<li class="waves-effect waves-light"><a href="#about-sdgs">SDGsとは</a></li>
-						<li class="waves-effect waves-light"><a href="#menbers">メンバー</a></li>
+						<li class="waves-effect waves-light"><a href="#members">メンバー</a></li>
 						<li class="waves-effect waves-light"><a href="events.html">イベント</a></li>
 						<li class="waves-effect waves-light"><a href="blog.html">ブログ</a></li> 
 					</ul>
 					<ul class="side-nav" id="mobile-demo">
 						<li><a href="#">トップ</a></li>
-						<li><a href="#about">この団体について</a></li>
+						<li><a href="#about-us">この団体について</a></li>
 						<li><a href="#about-sdgs">SDGsとは</a></li>
-						<li><a href="#member">メンバー</a></li>
+						<li><a href="#members">メンバー</a></li>
 						<li><a href="events.html">イベント</a></li>
 						<li><a href="blog.html">ブログ</a></li>
 					</ul>
@@ -43,20 +43,33 @@
 				<p class="sub-title">SDG and Technology create Challengers.</p>
 			</a>
 			</div>
+			<div class="about-us">
+			<a name="about-us">
+				<div class="card hoverable">
+					<div class="card-title">
+						<p class="title"><i class="material-icons icon-grey small">face</i>この団体について</p>
+					</div>
+					<div class="card-content">
+						<p>SDGsを「誰一人取り残さない世界」を実現するためのゲームであると考え、課題発見プロセスの開発を行なっている学生団体です。 SDGsを活用した課題発見ゲームの開発と実装、イベントの企画やSDGsの理解促進とアクションの推進をしていくための技術的なサポートを行なっています。</p>
+					</div>
+				</div>
+			</a>
+			</div>
 			<div class="about-sdgs">
 			<a name="about-sdgs">
 				<div class="card hoverable">
 					<div class="card-title">
 						<p class="title"><i class="material-icons icon-grey small">nature_people</i>SDGsとは</p>
 					</div>
-					<div class="card-contet">
+					<div class="card-content">
 						<div class="video">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/UToZLN7g5K8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+							<iframe width="530" height="300" src="https://www.youtube.com/embed/UToZLN7g5K8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 						</div>
 						<p>SDGs(Sustainable Development Goals、「持続可能な開発のための目標」)は、2015年9月の国連サミットで採択された国際目標です。2030年までに世界が達成すべき17の目標と合計169のターゲットから構成され、地球上の誰一人として取り残さない世界を目指しています。</p>
 						<p>17の目標には合計で169の「ターゲット」があり、地球上の誰一人として取り残さない世界を目指しています。</p>
 					</div>
 				</div>
+				<p class="sub-title">Sustainable Development Goals</p>
 				<div class="sdgs">
 					<ul class="collapsible popout" data-collapsible="accordion">
 						<li class="active">
@@ -181,7 +194,7 @@
 						</li>
 						<li class="active">
 							<div class="collapsible-header">
-								<p><i class="material-icons icon-blue small">room_service</i>平和と公正をすべての人に</p>
+								<p><i class="material-icons icon-blue small">gavel</i>平和と公正をすべての人に</p>
 							</div>
 							<div class="collapsible-body" style="display: block;">
 								<p>持続可能な開発のための平和で包摂的な社会を促進し、すべての人々に司法へのアクセスを提供し、あらゆるレベルにおいて効果的で説明責任のある包摂的な制度を構築する。</p>
@@ -197,6 +210,74 @@
 						</li>
 					</ul>
 				</a>
+				</div>
+				<a div="members">
+				<a name="members">
+					<div class="card hoverable">
+					<div class="card-title">
+						<p class="title"><i class="material-icons icon-grey small">group</i>メンバー</p>
+					</div>
+					<div class="card-content">
+						<ul class="collapsible popout" data-collapsible="accordion">
+							<li class="active">
+								<div class="collapsible-header">
+									<p><i class="material-icons icon-grey small">school</i>代表 山口由人</p>
+								</div>
+								<div class="collapsible-body" style="display: block;">
+									<p>自己紹介</p>
+								</div>
+							</li>
+							<li class="active">
+								<div class="collapsible-header">
+									<p><i class="material-icons icon-grey small">school</i>副代表 村上貴文</p>
+								</div>
+								<div class="collapsible-body" style="display: block;">
+									<p>自己紹介</p>
+								</div>
+							</li>
+							<li class="active">
+								<div class="collapsible-header">
+									<p><i class="material-icons icon-grey small">build</i>技術サポーター 由本健</p>
+								</div>
+								<div class="collapsible-body" style="display: block;">
+									<p>自己紹介</p>
+								</div>
+							</li>
+							<li class="active">
+								<div class="collapsible-header">
+									<p><i class="material-icons icon-grey small">build</i>技術サポーター 糸井主歩</p>
+								</div>
+								<div class="collapsible-body" style="display: block;">
+									<p>自己紹介</p>
+								</div>
+							</li>
+							<li class="active">
+								<div class="collapsible-header">
+									<p><i class="material-icons icon-grey small">build</i>技術サポーター 三橋優希</p>
+								</div>
+								<div class="collapsible-body" style="display: block;">
+									<p>自己紹介</p>
+								</div>
+							</li>
+							<li class="active">
+								<div class="collapsible-header">
+									<p><i class="material-icons icon-grey small">edit</i>企画 新名さくら</p>
+								</div>
+								<div class="collapsible-body" style="display: block;">
+									<p>あらゆる場所 あらゆる形態の貧困を終わらせる。</p>
+								</div>
+							</li>
+							<li class="active">
+								<div class="collapsible-header">
+									<p><i class="material-icons icon-grey small">camera_alt</i>広報 石田光太郎</p>
+								</div>
+								<div class="collapsible-body" style="display: block;">
+									<p>あらゆる場所 あらゆる形態の貧困を終わらせる。</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					</div>
 				</div>
 			</div>
 		</div>

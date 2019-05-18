@@ -4,8 +4,9 @@
 
 p {
 	color:#212121;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 p.title {
@@ -22,26 +23,15 @@ p.sub-title {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-a {
-	text-decoration: none;
-	color: #008;
-	font-family: 'Ubuntu', sans-serif;
-}
-
-nav a {
-	text-decoration: none;
-	color: #212121;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 300px;
-}
-
 .card-content a {
 	color: #212121;
 }
 
 .main {
-	margin : 5% 5% 5% 12%;
 	width : 75%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .nav-wrapper li a {
@@ -80,8 +70,4 @@ i.icon-blue {
 	display: block;
 	padding-top: 60px;
 	padding-bottom: 60px;
-}
-
-.video {
-	text-align: center;
 }
