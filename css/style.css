@@ -10,25 +10,25 @@ p {
 }
 
 p.title {
-	color: #212121;
+	color: #0d47a1;
 	font-weight: 600px;
 	font-size: 30px;
 	font-family: 'Ubuntu', sans-serif;
 }
 
 p.sub-title {
-	color: #212121;
+	color: #1976d2;
 	font-weight: 500px;
 	font-size: 25px;
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.card-content a {
-	color: #212121;
+a href{
+	color: #1976d2;
 }
 
 .main {
-	width : 75%;
+	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -43,7 +43,7 @@ i.icon-white {
 }
 
 i.icon-grey {
-	color: #212121
+	color: #212121;
 }
 
 i.icon-red {
@@ -63,11 +63,18 @@ i.icon-orange {
 }
 
 i.icon-blue {
-	color: #01579b
+	color: #0d47a1
 }
 
 .top {
 	display: block;
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+span {
+	color: #0d47a1;
+	font-weight: 500px;
+	font-size: 25px;
+	font-family: 'Ubuntu', sans-serif;
 }
