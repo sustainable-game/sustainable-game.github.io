@@ -6,3 +6,12 @@ body{
   max-width: 800px;
   padding: 60px 10vw;
 }
+.service{
+  display: inline-block;
+  height: 240px;
+  margin: 0 2vw;
+  width: 144px;
+}
+.service-img{
+  width: 100%;
+}
