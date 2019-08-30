@@ -1,6 +1,16 @@
 body{
   text-align: center;
 }
+.member{
+  display: inline-block;
+  height: 240px;
+  margin: 0 2vw;
+  width: 180px;
+}
+.member-img{
+  width: 80%;
+}
+
 .section{
   margin: auto;
   max-width: 800px;
