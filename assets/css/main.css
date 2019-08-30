@@ -1,0 +1,8 @@
+body{
+  text-align: center;
+}
+.section{
+  margin: auto;
+  max-width: 800px;
+  padding: 60px 10vw;
+}
