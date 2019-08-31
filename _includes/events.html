@@ -1,3 +1,6 @@
 <div class="section" id="events">
   <h2>過去の開催イベント</h2>
+  {% for post in site.categories.event %}
+  {% include articles.html %}
+  {% endfor %}
 </div>
