@@ -40,8 +40,16 @@ body{
 }
 .service{
   display: inline-block;
-  height: 240px;
   margin: 0 24px;
+}
+.service:hover{
+  color: #ff654c;
+  transition: .2s;
+}
+.service:hover > i{
+  transform: translateX(80px);
+  color: #ff654c;
+  transition: .2s;
 }
 .service-img{
   width: 100%;
