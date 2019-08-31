@@ -35,7 +35,7 @@ body{
 
 .section{
   margin: auto;
-  max-width: 800px;
+  max-width: 1024px;
   padding: 60px 10vw;
 }
 .service{
