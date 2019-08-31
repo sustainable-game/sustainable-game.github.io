@@ -1,6 +1,28 @@
 body{
   text-align: center;
 }
+.article{
+  border-bottom: 4px dotted #ccc;
+  font-size: 21px;
+  padding: 24px 12px;
+  text-align: left;
+  width: 100%;
+}
+.article-link{
+  color: #363636;
+  text-decoration: none;
+}
+.article-link:hover{
+  color: #ff654c;
+}
+.article-date{
+  display: inline;
+  margin-right: 24px;
+}
+.article-title{
+  display: inline;
+}
+
 .member{
   display: inline-block;
   height: 240px;

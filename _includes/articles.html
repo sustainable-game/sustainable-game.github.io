@@ -1,5 +1,6 @@
-<a href="{{ site.baseurl }}{{ post.url }}">
+<a class="article-link" href="{{ site.baseurl }}{{ post.url }}">
   <div class="article">
-    <h3>{{post.title}}</h3>
+    <p class="article-date">{{post.date | date:"%Y.%-m.%d"}}</p>
+    <p class="article-title">{{post.title}}</p>
   </div>
 </a>
