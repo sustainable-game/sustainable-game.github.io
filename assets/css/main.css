@@ -42,8 +42,17 @@ body{
   display: inline-block;
   height: 240px;
   margin: 0 24px;
-  width: 144px;
 }
 .service-img{
   width: 100%;
+}
+@media screen and (min-width:630px){
+  .service{
+    width: 30vw;
+  }
+}
+@media screen and (min-width:1260px){
+  .service{
+    width: 204px;
+  }
 }
