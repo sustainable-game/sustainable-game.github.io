@@ -40,7 +40,7 @@ body{
 }
 .service{
   display: inline-block;
-  margin: 0 24px;
+  margin: 36px 24px;
 }
 .service:hover{
   color: #ff654c;
