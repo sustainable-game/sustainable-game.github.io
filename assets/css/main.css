@@ -57,6 +57,23 @@ body{
 .service-img{
   width: 100%;
 }
+.shere-buttons{
+  margin: 12px 0;
+}
+.shere-button{
+  color: #fff;
+  display: inline-block;
+  margin: 2px;
+  padding: 12px;
+  text-decoration: none;
+  width: 24px;
+}
+.shere-facebook{
+  background-color: #3B5998;
+}
+.shere-twitter{
+  background-color: #1DA1F2;
+}
 @media screen and (min-width:630px){
   .service{
     width: 30vw;
