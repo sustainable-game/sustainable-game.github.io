@@ -22,6 +22,18 @@ body{
   display: inline;
   margin-right: 24px;
 }
+.article-media{
+  padding: 4px;
+  text-align: left;
+  list-style: none;
+}
+.article-media::after{
+  color: #ccc;
+  content: '\f35d';
+  font-family: "Font Awesome 5 Free";
+  font-size: 0.8em;
+  font-weight: 900;
+}
 .article-title{
   display: inline;
 }
