@@ -62,6 +62,9 @@ body{
   max-width: 1024px;
   padding: 60px 10vw;
 }
+.section:not(#contact){
+  border-bottom: solid 4px #93dae0;
+}
 .service{
   display: inline-block;
   margin: 36px 24px;
