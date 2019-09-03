@@ -39,13 +39,22 @@ body{
 }
 
 .member{
-  display: inline-block;
-  height: 240px;
-  margin: 0 2vw;
+  display: block;
+  float: left;
+  margin: 2vw;
   width: 180px;
+}
+#members::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 .member-img{
   width: 80%;
+  border-radius: 50%;
+}
+.member-info{
+  height: 120px;
 }
 
 .section{
