@@ -92,6 +92,9 @@ body{
 .member-info{
   height: 120px;
 }
+.page-notfound h1{
+  font-size: 12em;
+}
 .post{
   text-align: left;
 }
