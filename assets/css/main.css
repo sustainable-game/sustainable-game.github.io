@@ -88,8 +88,10 @@ body{
   border-bottom: solid 4px #93dae0;
 }
 .service{
+  color: #424242;
   display: inline-block;
   margin: 36px 24px;
+  text-decoration: none;
 }
 .service:hover{
   color: #ff654c;
