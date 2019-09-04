@@ -2,6 +2,7 @@
 @import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
 body{
   text-align: center;
+  margin: 0;
 }
 .article{
   border-bottom: 4px dotted #ccc;
@@ -37,6 +38,37 @@ body{
 .article-title{
   display: inline;
 }
+#events::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.event-article{
+  background-color: #fff;
+  border-radius: 4px;
+  float: left;
+  margin: 12px;
+  width: calc((80vw / 4) - (12px * 2));
+}
+.event-date{
+  font-family: 'Roboto';
+  margin: 2px 0;
+}
+.event-p{
+  padding: 20px;
+  text-align: left;
+}
+.event-p::before{
+  border-bottom: solid 4px #ffcc66;
+  content:"";
+  display: block;
+  margin-bottom: 24px;
+}
+.events-thumbnail{
+  display: block;
+  width: 100%;
+}
+
 .h2-section{
   font-family: 'Roboto';
   letter-spacing: .2em;
@@ -141,5 +173,10 @@ body{
 @media screen and (min-width:1260px){
   .service{
     width: 204px;
+  }
+}
+@media screen and (min-width:1260px){
+  .event-article{
+    width: calc((1024px / 4) - (12px * 2));
   }
 }
