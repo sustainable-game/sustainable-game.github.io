@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
 @import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
 body{
-  font-family: 'Roboto';
   text-align: center;
 }
 .article{
@@ -36,6 +35,10 @@ body{
 }
 .article-title{
   display: inline;
+}
+.h2-section{
+  font-family: 'Roboto';
+  letter-spacing: .2em;
 }
 
 .member{
