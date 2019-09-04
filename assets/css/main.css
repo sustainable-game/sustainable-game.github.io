@@ -19,6 +19,7 @@ body{
 }
 .article-date{
   display: inline;
+  font-family: 'Roboto';
   margin-right: 24px;
 }
 .article-media{
@@ -59,13 +60,31 @@ body{
 .member-info{
   height: 120px;
 }
-
+.post{
+  text-align: left;
+}
+.post-content{
+  letter-spacing: .1em;
+  line-height: 2;
+}
+.post-date{
+  font-family: 'Roboto';
+}
+.post-title{
+  font-size: 1.8em;
+  font-weight: 500;
+  letter-spacing: .1em;
+}
+.post h2{
+  border-left: solid 6px #ffcc66;
+  padding-left: 8px;
+}
 .section{
   margin: auto;
   max-width: 1024px;
   padding: 60px 10vw;
 }
-.section:not(#contact){
+.section:not(#contact):not(.post){
   border-bottom: solid 4px #93dae0;
 }
 .service{
