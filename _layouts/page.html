@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% include header.html %}
+<article class="section page">
+  <h1 class="post-title">{{ page.title | escape }}</h1>
+  {% include shere_button.html %}
+  <div class="page-content">
+    {{ content }}
+  </div>
+</article>

@@ -92,6 +92,13 @@ body{
 .member-info{
   height: 120px;
 }
+.page{
+  text-align: left;
+}
+.page h2{
+  border-left: solid 6px #ffcc66;
+  padding-left: 8px;
+}
 .page-notfound h1{
   font-size: 12em;
 }
@@ -119,7 +126,7 @@ body{
   max-width: 1024px;
   padding: 60px 10vw;
 }
-.section:not(#contact):not(.post){
+.section:not(#contact):not(.post):not(.page){
   border-bottom: solid 4px #93dae0;
 }
 .service{
