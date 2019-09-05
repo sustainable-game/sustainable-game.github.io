@@ -100,8 +100,27 @@ body{
   padding-left: 8px;
 }
 .page-notfound h1{
-  font-size: 12em;
+  font-size: 10em;
 }
+.page-notfound-back{
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: #ddd 0 4px 12px 4px;
+  color: #ff654c;
+  display: block;
+  font-weight: bold;
+  margin: 8vh auto;
+  padding: 16px 36px;
+  text-decoration: none;
+  width: 20vw;
+  transition: .3s;
+}
+.page-notfound-back:hover{
+  background-color: #ff654c;
+  color: #fff;
+  transition: .3s;
+}
+
 .post{
   text-align: left;
 }
