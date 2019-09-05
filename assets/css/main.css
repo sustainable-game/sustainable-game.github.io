@@ -189,13 +189,16 @@ body{
 .title{
   height: 100vh;
   position: relative;
-  background-color: #93dae0;
+  background-image: url("/assets/img/title.jpeg");
+  background-size: cover;
 }
 .title-back{
+  background-color: #93dae0;
   color: #fff;
   font-family: 'Roboto';
-  font-size: 20vh;
-  left: 12px;
+  font-size: 18vh;
+  height: 98vh;
+  padding: 1vh 2vw;
   position: absolute;
   text-align:left;
 }
