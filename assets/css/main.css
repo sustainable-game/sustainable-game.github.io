@@ -188,11 +188,23 @@ body{
   position: relative;
   background-color: #93dae0;
 }
+.title-back{
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 20vh;
+  left: 12px;
+  position: absolute;
+  text-align:left;
+}
 .title-content{
+  background-color: rgba(255,255,255,0.6);
+  letter-spacing: .1em;
+  padding: 16vh 4vw;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
+  width: 70vw;
 }
 @media screen and (min-width:630px){
   .service{
