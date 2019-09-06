@@ -200,6 +200,7 @@ body{
   font-family: 'Roboto';
   font-size: 18vh;
   height: 98vh;
+  line-height: normal;
   padding: 1vh 2vw;
   position: absolute;
   text-align:left;
