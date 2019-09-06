@@ -49,8 +49,8 @@ body{
   background-color: #fff;
   border-radius: 4px;
   float: left;
-  margin: 12px;
-  width: calc((80vw / 4) - (12px * 2));
+  margin: 8px;
+  width: 100%;
 }
 .event-date{
   font-family: 'Roboto';
@@ -212,18 +212,26 @@ body{
   transform: translateY(-50%) translateX(-50%);
   width: 70vw;
 }
+@media screen and (max-width:630px){
+  /*スマホなど幅せま*/
+  .event-article{
+    width: calc((80vw) - (8px * 2));
+  }
+}
 @media screen and (min-width:630px){
   .service{
     width: 30vw;
   }
-}
-@media screen and (min-width:1260px){
-  .service{
-    width: 204px;
+  .event-article{
+    width: calc((80vw / 2) - (8px * 2));
   }
 }
 @media screen and (min-width:1260px){
+  /*でかい*/
+  .service{
+    width: 204px;
+  }
   .event-article{
-    width: calc((1024px / 4) - (12px * 2));
+    width: calc((1024px / 3) - (8px * 2));
   }
 }
