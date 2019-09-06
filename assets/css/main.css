@@ -103,7 +103,7 @@ body{
   margin: 2vw;
   width: 180px;
 }
-#members::after{
+.members::after{
   content: "";
   display: block;
   clear: both;
