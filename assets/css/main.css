@@ -4,6 +4,8 @@ body{
   color: #424242;
   text-align: center;
   background-color: #f6f6f6;
+  letter-spacing: .1em;
+  line-height: 1.6;
   margin: 0;
 }
 .article{
@@ -74,6 +76,7 @@ body{
 .h2-section{
   font-family: 'Roboto';
   letter-spacing: .2em;
+  margin-bottom: 1em;
 }
 
 .member{
