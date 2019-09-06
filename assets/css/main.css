@@ -170,6 +170,11 @@ body{
   text-align: center;
   top: 0;
   right: 0;
+  transition: .4s;
+}
+.popup-close:hover{
+  font-size: 2em;
+  transition: .4s;
 }
 .popup-cover{
   background-color: rgba(40, 40, 40, 0.5);
