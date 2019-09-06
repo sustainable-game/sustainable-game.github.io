@@ -126,7 +126,59 @@ body{
 .page-notfound h1{
   font-size: 10em;
 }
-
+.popup, .popup-cover{
+  display: none;
+  position: fixed;
+}
+.popup{
+  z-index: 384;
+}
+.popup-content{
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  height: 60vh;
+  margin: auto;
+  padding: calc(4vh + 2em) 4vw;
+  position: fixed;
+  text-align: left;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 80vw;
+  max-width: 800px;
+}
+.popup-checkbox{
+  display: none;
+}
+.popup-checkbox:checked + .popup{
+  display: block;
+}
+.popup-checkbox:checked ~ .popup-cover{
+  display: block;
+}
+.popup-close{
+  background-color: #ff654c;
+  border-radius: 0 8px 0 8px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1.4em;
+  padding: 2vh 3vw;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+.popup-cover{
+  background-color: rgba(40, 40, 40, 0.5);
+  content: "";
+  height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+}
 .post{
   text-align: left;
 }
