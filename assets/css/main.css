@@ -90,6 +90,11 @@ body{
   display: block;
   width: 100%;
 }
+footer{
+  background-color: #ddd;
+  font-family: 'Roboto';
+  padding: 8vh;
+}
 
 .h2-section{
   font-family: 'Roboto';
