@@ -3,7 +3,7 @@ layout: post
 title:  "７月15日第三回課題発見DAY開催"
 date:   2019-08-25 15:00:00 +0900
 categories: event
-thumbnail: example.png
+thumbnail: discover-challenge-day-3.jpg
 ---
 
 ## 第三回課題発見DAY＠R-StartupStudio開催

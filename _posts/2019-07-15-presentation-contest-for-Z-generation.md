@@ -3,7 +3,7 @@ layout: post
 title:  "７月15日Z世代のためのプレゼンコンテスト開催"
 date:   2019-07-15 15:00:00 +0900
 categories: event
-thumbnail: example.png
+thumbnail: z-presentation-contest.jpg
 ---
 
 ## Z世代のためのプレゼンコンテスト＠日本電子専門学校

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "6月30日第二回課題発見開催"
+title:  "6月30日第二回課題発見DAY開催"
 date:   2019-06-30 15:00:00 +0900
 categories: event
-thumbnail: example.png
+thumbnail: discover-challenge-day-1.jpg
 ---
 
 ## 課題発見DAY＠東京日本橋タワー開催
