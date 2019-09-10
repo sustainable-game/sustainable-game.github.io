@@ -156,6 +156,7 @@ header a:hover{
   border-radius: 8px;
   height: 60vh;
   margin: auto;
+  overflow-y: scroll;
   padding: calc(4vh + 2em) 4vw;
   position: fixed;
   text-align: left;
