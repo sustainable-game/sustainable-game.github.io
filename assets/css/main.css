@@ -103,6 +103,21 @@ footer{
   margin-bottom: 1em;
 }
 
+header{
+  background-color: #fff;
+  font-family: 'Roboto';
+  padding: 3vh 0;
+}
+header a{
+  color: #424242;
+  margin: 0 18px;
+  text-decoration: none;
+  transition: .3s;
+}
+header a:hover{
+  color: #ff654c;
+  transition: .3s;
+}
 .member{
   display: block;
   float: left;
