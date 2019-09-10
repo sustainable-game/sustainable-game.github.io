@@ -5,6 +5,22 @@
 		<title>{{ site.title }}</title>
 		<link rel="stylesheet" href="/assets/css/main.css" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+		<link rel="shortcut icon" type="image/jpg" href="/assets/img/logo.png" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@{{site.twitter_username}}" />
+		<meta property="og:url" content="{{site.github.url}}{{page.url}}" />
+		{% if page.title %}
+			<meta property="og:title" content="{{page.title}}" />
+		{% else %}
+			<meta property="og:title" content="{{site.title}}" />
+		{% endif %}
+
+		{% if page.thumbnail %}
+			<meta property="og:image" content="{{site.github.url}}/assets/img/{{page.thumbnail}}" />
+		{% else %}
+			<meta property="og:image" content="{{site.github.url}}/assets/img/cover.png" />
+		{% endif %}
 	</head>
 	<body>
 		{{content}}
