@@ -61,6 +61,19 @@ body{
   color: #fff;
   transition: .3s;
 }
+/*background-colors*/
+.gray{
+  background-color: #333;
+  color: #fff;
+}
+.skyblue{
+  background-color: #93dae0;
+  color: #fff;
+}
+.yellow{
+  background-color: #fc6;
+}
+
 #events::after{
   content: "";
   display: block;
@@ -225,9 +238,6 @@ header a:hover{
   margin: auto;
   max-width: 1024px;
   padding: 60px 10vw;
-}
-.section:not(#contact):not(.post):not(.page){
-  border-bottom: solid 4px #93dae0;
 }
 .service{
   color: #424242;
