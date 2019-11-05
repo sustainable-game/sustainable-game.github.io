@@ -218,6 +218,9 @@ header a:hover{
   font-weight: 500;
   letter-spacing: .1em;
 }
+.post-thumbnail{
+  width: 100%;
+}
 .section{
   margin: auto;
   max-width: 1024px;
