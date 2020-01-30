@@ -14,13 +14,13 @@ categories: pressrelease
 - 共催: 国際NGO　ワールド・ビジョン・ジャパン様
 - 日時: 2月11日 火曜日 (建国記念日) 10:30-18:30
 - 場所: 中野坂上 World Vision様会議室
-- アクセス: 東京メトロ丸ノ内線、都営大江戸線「中野坂上駅」より徒歩1分　https://www.worldvision.jp/info/access.html
+- アクセス: 東京メトロ丸ノ内線、都営大江戸線「中野坂上駅」より徒歩1分　(https://www.worldvision.jp/info/access.html)
 - 募集人数: 中高生36人
 - ゲストスピーカー: 3名 (難民問題をはじめとする様々な分野のゲストが参加します！)
 
 ## 中高生応募はこちらから⬇︎
 
-応募フォーム: https://forms.gle/C9cSDZSZHniKWxK77
+[応募フォーム] (https://forms.gle/C9cSDZSZHniKWxK7)
  
 
 課題発見Day Plusとは「中高生がSDGsを通して自分の世界観を広げる楽しさに気づき、課題を発見して解決する力を持って社会に突っ込んでいく人へ変わることでSDGsを実現していく」をコンセプトにしているイベントです。
