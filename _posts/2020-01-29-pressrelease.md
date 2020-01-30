@@ -20,7 +20,7 @@ categories: pressrelease
 
 ## 中高生応募はこちらから⬇︎
 
-[応募フォーム](https://forms.gle/C9cSDZSZHniKWxK7)
+[応募フォーム](https://forms.gle/C9cSDZSZHniKWxK77)
  
 
 課題発見Day Plusとは「中高生がSDGsを通して自分の世界観を広げる楽しさに気づき、課題を発見して解決する力を持って社会に突っ込んでいく人へ変わることでSDGsを実現していく」をコンセプトにしているイベントです。
